@@ -41,9 +41,9 @@ echo " " >> $LOG
 
 if [ $FALHA -lt 1 ]
 then
-    echo "$(date) - Copia de seguranca do servico WEB LOCAL COMANDO finalizado com SUCESSO." >> $LOG
+    echo "$(date) - Copia de seguranca do $DIR finalizado com SUCESSO." >> $LOG
 else
-    echo "$(date) - Ocorreu FALHA em alguma copia de seguranca do servico WEB LOCAL COMANDO." >> $LOG
+    echo "$(date) - Ocorreu FALHA em alguma copia de seguranca do $DIR." >> $LOG
 fi
 
 echo " " >> $LOG
